@@ -1,5 +1,6 @@
 import { HTMLAttributes, ReactNode } from "react";
 
-export interface SectionProps extends HTMLAttributes<HTMLElement> {
+export interface CardProps
+  extends HTMLAttributes<HTMLDivElement> {
   children: ReactNode;
 }

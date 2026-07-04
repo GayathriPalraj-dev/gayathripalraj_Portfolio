@@ -8,6 +8,10 @@
   --radius-md: 0.75rem;
   --radius-full: 9999px;
   --transition-base: 200ms ease;
+  --container-max-width: 80rem;
+  --container-padding-inline: 1rem;
+  --container-padding-inline-sm: 1.5rem;
+  --container-padding-inline-lg: 2rem;
 }
 
 :root[data-theme='dark'] {
@@ -17,6 +21,25 @@
   --color-text: #f8fafc;
   --color-muted: #cbd5e1;
   --color-primary: #60a5fa;
+}
+
+.container {
+  width: 100%;
+  margin-inline: auto;
+  max-width: var(--container-max-width);
+  padding-inline: var(--container-padding-inline);
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-inline: var(--container-padding-inline-sm);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-inline: var(--container-padding-inline-lg);
+  }
 }
 
 * {
