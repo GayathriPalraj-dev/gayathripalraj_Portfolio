@@ -63,7 +63,7 @@ Do not explain your reasoning.
 
 Do not redesign the UI.
 
-Do not generate optional improvements.
+Do not generate optional improvements
 
 Do not continue after completing the requested task.
 
