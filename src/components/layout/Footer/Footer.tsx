@@ -118,7 +118,7 @@ const Footer: FC = () => {
                       className={footerSocialLinkStyles}
                       href={link.link}
                       key={link.id}
-                      rel={link.external ? "noreferrer" : undefined}
+                      rel={link.external ? "noopener noreferrer" : undefined}
                       target={link.external ? "_blank" : undefined}
                     >
                       <SocialIcon size={20} aria-hidden="true" />

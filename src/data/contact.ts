@@ -1,3 +1,5 @@
+import { portfolioEmailAddress, portfolioEmailHref } from "./socialLinks";
+
 export const contactData = {
   sectionTitle: "Contact",
 
@@ -10,8 +12,8 @@ export const contactData = {
     {
       id: "email",
       title: "Email",
-      value: "gayathri.2842004@gmail.com",
-      link: "mailto:gayathri.2842004@gmail.com",
+      value: portfolioEmailAddress,
+      link: portfolioEmailHref,
       icon: "mail",
       copyable: true,
     },
@@ -49,7 +51,7 @@ export const contactData = {
   cta: {
     primary: {
       label: "Send Email",
-      href: "mailto:gayathri.2842004@gmail.com",
+      href: portfolioEmailHref,
     },
     secondary: {
       label: "Download Resume",

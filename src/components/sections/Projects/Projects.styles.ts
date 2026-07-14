@@ -251,6 +251,7 @@ hover:bg-pink-50
 hover:opacity-100
 hover:shadow-[0_12px_24px_rgba(244,114,182,0.12)]
 focus-visible:outline-none
+focus-visible:ring-2
 focus-visible:ring-pink-400
 focus-visible:ring-offset-2
 focus-visible:ring-offset-white

@@ -4,6 +4,10 @@ export interface SocialLink {
   href: string;
 }
 
+export const portfolioEmailAddress = "gayathri.2842004@gmail.com";
+export const portfolioEmailHref =
+  `https://mail.google.com/mail/?view=cm&fs=1&to=${portfolioEmailAddress}&su=Software%20Engineer%20Opportunity`;
+
 export const socialLinks: SocialLink[] = [
   {
     id: "github",
@@ -18,6 +22,6 @@ export const socialLinks: SocialLink[] = [
   {
     id: "email",
     label: "Email",
-    href: "mailto:gayathri.2842004@gmail.com",
+    href: portfolioEmailHref,
   },
 ];

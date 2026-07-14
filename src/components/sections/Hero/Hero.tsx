@@ -231,7 +231,7 @@ const Hero: FC<HeroProps> = ({
                         href={link.href}
                         aria-label={link.label}
                         target={link.href.startsWith("http") ? "_blank" : undefined}
-                        rel={link.href.startsWith("http") ? "noreferrer" : undefined}
+                        rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
                       >
                         <SocialIcon className="h-7 w-7" aria-hidden="true" />
                       </a>

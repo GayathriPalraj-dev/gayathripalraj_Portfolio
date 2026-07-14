@@ -1,3 +1,5 @@
+import { portfolioEmailHref } from "./socialLinks";
+
 export const footerData = {
   brand: {
     name: "Gayathri Palraj",
@@ -29,7 +31,8 @@ export const footerData = {
       id: "email",
       title: "Email",
       icon: "mail",
-      link: "mailto:gayathri.2842004@gmail.com",
+      link: portfolioEmailHref,
+      external: true,
     },
   ],
 
