@@ -14,10 +14,13 @@ flex
 items-center
 justify-between
 h-20
+gap-4
 `;
 
 export const navbarRightStyles = `
 flex
 items-center
-gap-6
+gap-3
+sm:gap-5
+lg:gap-6
 `;

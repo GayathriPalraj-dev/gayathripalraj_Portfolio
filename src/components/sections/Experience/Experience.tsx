@@ -62,7 +62,7 @@ const Experience: FC<ExperienceProps> = ({
             <div className="absolute right-[7%] top-[18%] h-20 w-16 bg-[radial-gradient(circle,currentColor_2px,transparent_2.8px)] bg-[length:1.25rem_1.25rem] text-pink-300/70 [html[data-theme='dark']_&]:text-blue-500/45" />
             <div className="absolute left-[14%] top-[22%] text-5xl leading-none text-pink-300 [html[data-theme='dark']_&]:text-blue-500/75">*</div>
             <div className="absolute right-[13%] bottom-[18%] text-5xl leading-none text-pink-300 [html[data-theme='dark']_&]:text-blue-500/75">*</div>
-            <div className="absolute right-[-3rem] top-16 h-36 w-36 rounded-full bg-pink-200/45 [html[data-theme='dark']_&]:bg-blue-600/20" />
+            <div className="absolute right-0 top-16 h-36 w-36 translate-x-1/2 rounded-full bg-pink-200/45 [html[data-theme='dark']_&]:bg-blue-600/20" />
           </div>
 
           <div className={experienceHeaderStyles}>

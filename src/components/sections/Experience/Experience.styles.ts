@@ -6,10 +6,10 @@ isolate
 overflow-hidden
 !bg-transparent
 !p-0
-!py-16
+!py-14
 !shadow-none
-sm:!py-20
-lg:!py-24
+sm:!py-[4.5rem]
+lg:!py-[5.5rem]
 `;
 
 export const experienceShellStyles = `
@@ -20,11 +20,12 @@ border
 border-pink-200
 bg-[radial-gradient(circle_at_8%_18%,rgba(244,114,182,0.1),transparent_18%),radial-gradient(circle_at_96%_16%,rgba(244,114,182,0.16),transparent_16%),linear-gradient(135deg,#fff8fb_0%,#ffffff_48%,#fff3f8_100%)]
 px-5
-py-10
+py-11
 shadow-[0_24px_70px_rgba(244,114,182,0.13),0_1px_0_rgba(255,255,255,0.8)_inset]
 sm:px-8
-lg:px-16
-lg:py-16
+lg:px-12
+xl:px-16
+lg:py-14
 [html[data-theme='dark']_&]:border-blue-500/45
 [html[data-theme='dark']_&]:bg-[radial-gradient(circle_at_8%_18%,rgba(37,99,235,0.12),transparent_18%),radial-gradient(circle_at_96%_16%,rgba(37,99,235,0.16),transparent_16%),linear-gradient(135deg,#020817_0%,#071226_52%,#020817_100%)]
 [html[data-theme='dark']_&]:shadow-[0_24px_76px_rgba(37,99,235,0.12),0_1px_0_rgba(96,165,250,0.18)_inset]
@@ -112,10 +113,10 @@ text-slate-600
 export const experienceContentGridStyles = `
 relative
 z-10
-mt-12
+mt-11
 grid
 grid-cols-1
-gap-6
+gap-7
 xl:grid-cols-[1fr_0.55fr]
 xl:items-start
 `;

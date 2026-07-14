@@ -1,7 +1,9 @@
 export const navigationContainerStyles = `
-flex
+hidden
 items-center
-gap-8
+gap-6
+md:flex
+lg:gap-8
 `;
 
 export const navigationLinkStyles = `

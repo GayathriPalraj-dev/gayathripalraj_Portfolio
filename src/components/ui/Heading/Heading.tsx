@@ -1,4 +1,4 @@
-import type { FC } from "react";
+import { createElement, type FC } from "react";
 import type { HeadingProps } from "./Heading.types";
 
 const headingStyles = {
@@ -16,15 +16,13 @@ const Heading: FC<HeadingProps> = ({
   className = "",
   ...props
 }) => {
-  const Tag = `h${level}` as keyof JSX.IntrinsicElements;
-
-  return (
-    <Tag
-      className={`${headingStyles[level]} ${className}`.trim()}
-      {...props}
-    >
-      {children}
-    </Tag>
+  return createElement(
+    `h${level}`,
+    {
+      className: `${headingStyles[level]} ${className}`.trim(),
+      ...props,
+    },
+    children,
   );
 };
 

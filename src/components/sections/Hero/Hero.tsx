@@ -114,7 +114,6 @@ function useTypewriter(words: readonly string[]) {
 
   useEffect(() => {
     if (prefersReducedMotion) {
-      setVisibleCharacters(words[0]?.length ?? 0);
       return undefined;
     }
 
@@ -144,6 +143,10 @@ function useTypewriter(words: readonly string[]) {
 
     return () => window.clearTimeout(timeout);
   }, [isDeleting, prefersReducedMotion, visibleCharacters, wordIndex, words]);
+
+  if (prefersReducedMotion) {
+    return words[0] ?? "";
+  }
 
   return words[wordIndex]?.slice(0, visibleCharacters) ?? "";
 }

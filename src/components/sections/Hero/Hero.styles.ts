@@ -10,9 +10,9 @@ overflow-hidden
 !items-center
 !bg-transparent
 !p-0
-!py-8
-sm:!py-10
-lg:!py-12
+!py-10
+sm:!py-12
+lg:!py-14
 !shadow-none
 `;
 
@@ -24,15 +24,16 @@ border
 border-pink-300/70
 bg-[radial-gradient(circle_at_78%_36%,rgba(244,114,182,0.22),transparent_25%),linear-gradient(135deg,#fff7fb_0%,#ffffff_45%,#fff0f7_100%)]
 px-5
-pb-5
-pt-8
+pb-6
+pt-9
 shadow-[0_30px_90px_rgba(244,114,182,0.16)]
 transition-colors
 duration-300
 sm:px-8
 sm:pb-8
-lg:px-14
-lg:pb-6
+lg:px-12
+xl:px-14
+lg:pb-8
 lg:pt-16
 [html[data-theme='dark']_&]:border-blue-500/80
 [html[data-theme='dark']_&]:bg-[radial-gradient(circle_at_78%_36%,rgba(37,99,235,0.24),transparent_25%),linear-gradient(135deg,#020817_0%,#061227_48%,#020817_100%)]
@@ -56,7 +57,8 @@ items-center
 gap-10
 pt-6
 lg:grid-cols-[0.93fr_1.07fr]
-lg:gap-8
+lg:gap-10
+xl:gap-12
 `;
 
 export const heroContentStyles = `
@@ -284,7 +286,7 @@ drop-shadow-[0_26px_32px_rgba(15,23,42,0.15)]
 export const heroStatsStyles = `
 relative
 z-20
-mt-8
+mt-10
 grid
 grid-cols-1
 overflow-hidden
@@ -295,7 +297,7 @@ bg-white/82
 shadow-[0_20px_50px_rgba(244,114,182,0.13)]
 backdrop-blur-xl
 sm:grid-cols-2
-lg:mt-8
+lg:mt-10
 lg:grid-cols-4
 [html[data-theme='dark']_&]:border-blue-500/80
 [html[data-theme='dark']_&]:bg-blue-950/42

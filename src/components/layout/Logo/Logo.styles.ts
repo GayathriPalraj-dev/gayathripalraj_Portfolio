@@ -21,8 +21,9 @@ shadow-md
 `;
 
 export const logoTextStyles = `
-text-2xl
+text-xl
 font-bold
 text-foreground
 tracking-tight
+sm:text-2xl
 `;

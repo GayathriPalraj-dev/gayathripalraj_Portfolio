@@ -89,7 +89,7 @@ const About: FC<AboutProps> = ({
         <div className={aboutShellStyles}>
           <div className={aboutDecorLayerStyles} aria-hidden="true">
             <div className="absolute left-[2%] top-[12%] h-24 w-24 rounded-full bg-pink-200/35 blur-sm [html[data-theme='dark']_&]:bg-blue-600/20" />
-            <div className="absolute right-[-3rem] top-12 h-32 w-32 rounded-full bg-pink-200/55 [html[data-theme='dark']_&]:bg-blue-600/20" />
+            <div className="absolute right-0 top-12 h-32 w-32 translate-x-1/2 rounded-full bg-pink-200/55 [html[data-theme='dark']_&]:bg-blue-600/20" />
             <div className="absolute left-[3%] bottom-[30%] h-20 w-16 bg-[radial-gradient(circle,currentColor_2px,transparent_2.8px)] bg-[length:1.25rem_1.25rem] text-pink-300/70 [html[data-theme='dark']_&]:text-blue-500/45" />
             <div className="absolute right-[5%] top-[12%] h-20 w-16 bg-[radial-gradient(circle,currentColor_2px,transparent_2.8px)] bg-[length:1.25rem_1.25rem] text-pink-300/70 [html[data-theme='dark']_&]:text-blue-500/45" />
             <div className="absolute left-[7%] top-[20%] text-5xl leading-none text-pink-300 [html[data-theme='dark']_&]:text-blue-500/75">*</div>
