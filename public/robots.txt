@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gayathripalraj-dev.github.io/gayathri-portfolio/sitemap.xml

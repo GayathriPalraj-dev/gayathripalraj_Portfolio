@@ -99,7 +99,7 @@ sm:whitespace-nowrap
 
 export const heroNameAccentStyles = `
 bg-gradient-to-r
-from-pink-500
+from-pink-600
 to-pink-600
 bg-clip-text
 text-transparent
@@ -113,7 +113,7 @@ min-h-[3.15rem]
 text-[clamp(1.85rem,3.1vw,2.75rem)]
 font-bold
 leading-tight
-text-pink-500
+text-pink-700
 [html[data-theme='dark']_&]:text-blue-500
 `;
 
@@ -130,7 +130,7 @@ h-[3px]
 w-32
 rounded-full
 bg-gradient-to-r
-from-pink-500
+from-pink-600
 via-pink-300
 to-transparent
 [html[data-theme='dark']_&]:from-blue-500
@@ -167,8 +167,8 @@ justify-center
 gap-4
 rounded-lg
 bg-gradient-to-r
-from-pink-500
-to-pink-500
+from-pink-600
+to-pink-600
 px-8
 text-base
 font-semibold
@@ -181,7 +181,7 @@ hover:shadow-[0_20px_42px_rgba(236,72,153,0.34)]
 focus-visible:outline
 focus-visible:outline-2
 focus-visible:outline-offset-4
-focus-visible:outline-pink-500
+focus-visible:outline-pink-700
 [html[data-theme='dark']_&]:from-blue-500
 [html[data-theme='dark']_&]:to-blue-600
 [html[data-theme='dark']_&]:shadow-[0_16px_36px_rgba(37,99,235,0.34)]
@@ -201,7 +201,7 @@ bg-white/60
 px-8
 text-base
 font-semibold
-text-pink-500
+text-pink-700
 transition
 duration-300
 hover:-translate-y-0.5
@@ -209,7 +209,7 @@ hover:bg-pink-50
 focus-visible:outline
 focus-visible:outline-2
 focus-visible:outline-offset-4
-focus-visible:outline-pink-500
+focus-visible:outline-pink-700
 [html[data-theme='dark']_&]:border-blue-500
 [html[data-theme='dark']_&]:bg-transparent
 [html[data-theme='dark']_&]:text-blue-400
@@ -236,12 +236,12 @@ shadow-[0_12px_28px_rgba(236,72,153,0.12)]
 transition
 duration-300
 hover:-translate-y-1
-hover:bg-pink-500
+hover:bg-pink-800
 hover:text-white
 focus-visible:outline
 focus-visible:outline-2
 focus-visible:outline-offset-4
-focus-visible:outline-pink-500
+focus-visible:outline-pink-700
 [html[data-theme='dark']_&]:border
 [html[data-theme='dark']_&]:border-blue-500/50
 [html[data-theme='dark']_&]:bg-blue-950/45
@@ -323,7 +323,7 @@ lg:not-last:border-r
 `;
 
 export const heroStatIconStyles = `
-text-pink-500
+text-pink-700
 [html[data-theme='dark']_&]:text-blue-500
 `;
 

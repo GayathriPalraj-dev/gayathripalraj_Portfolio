@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Gayathri Palraj portfolio preview</title>
+  <desc id="description">Software Engineer and MERN Stack Developer portfolio social sharing image.</desc>
+  <rect width="1200" height="630" fill="#fff7fb"/>
+  <circle cx="1010" cy="110" r="190" fill="#f9a8d4" opacity="0.32"/>
+  <circle cx="145" cy="535" r="230" fill="#bfdbfe" opacity="0.45"/>
+  <rect x="72" y="68" width="1056" height="494" rx="42" fill="#ffffff" opacity="0.86" stroke="#f9a8d4" stroke-width="3"/>
+  <circle cx="158" cy="158" r="48" fill="#be185d"/>
+  <text x="158" y="175" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">G</text>
+  <text x="230" y="148" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Gayathri Palraj</text>
+  <text x="230" y="194" fill="#be185d" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Software Engineer | MERN Stack Developer</text>
+  <text x="120" y="332" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">Building scalable</text>
+  <text x="120" y="408" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">web applications</text>
+  <text x="120" y="482" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600">React · TypeScript · Node.js · Express · MongoDB</text>
+  <path d="M120 520H360" stroke="#be185d" stroke-width="8" stroke-linecap="round"/>
+</svg>

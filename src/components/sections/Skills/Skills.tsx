@@ -101,7 +101,6 @@ const Skills: FC<SkillsProps> = ({
                   aria-labelledby={`skill-category-${category.id}`}
                   className={skillCardStyles}
                   key={category.id}
-                  tabIndex={0}
                 >
                   <div className={skillCardHeaderStyles}>
                     <div className={skillIconWrapStyles} aria-hidden="true">

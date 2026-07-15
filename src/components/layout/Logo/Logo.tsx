@@ -15,6 +15,7 @@ const Logo: FC<LogoProps> = ({
     <a
       href="#home"
       className={`${logoContainerStyles} ${className}`.trim()}
+      aria-label="Gayathri Palraj home"
     >
       <div className={logoIconStyles}>
         G

@@ -97,7 +97,6 @@ const Experience: FC<ExperienceProps> = ({
 
                   <Card
                     className={experienceCardStyles}
-                    tabIndex={0}
                   >
                     <div className={experienceCardHeaderStyles}>
                       <div>
@@ -145,7 +144,6 @@ const Experience: FC<ExperienceProps> = ({
 
             <Card
               className={educationCardStyles}
-              tabIndex={0}
             >
               <p className={educationLabelStyles}>
                 <span className={experienceLabelDotStyles} aria-hidden="true" />

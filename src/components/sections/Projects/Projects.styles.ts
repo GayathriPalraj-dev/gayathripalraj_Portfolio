@@ -58,7 +58,7 @@ text-sm
 font-bold
 uppercase
 tracking-[0.14em]
-text-pink-500
+text-pink-700
 [html[data-theme='dark']_&]:text-blue-400
 `;
 
@@ -66,7 +66,7 @@ export const projectsLabelDotStyles = `
 h-3
 w-3
 rounded-full
-bg-pink-500
+bg-pink-700
 [html[data-theme='dark']_&]:bg-blue-500
 `;
 
@@ -81,7 +81,7 @@ text-slate-950
 
 export const projectsHeadingAccentStyles = `
 bg-gradient-to-r
-from-pink-500
+from-pink-600
 to-pink-600
 bg-clip-text
 text-transparent
@@ -221,7 +221,7 @@ px-3
 py-1.5
 text-xs
 font-semibold
-text-pink-600
+text-pink-700
 [html[data-theme='dark']_&]:border-blue-500/45
 [html[data-theme='dark']_&]:bg-blue-500/12
 [html[data-theme='dark']_&]:text-blue-300
@@ -241,7 +241,7 @@ rounded-lg
 border
 border-pink-500
 bg-white/60
-text-pink-600
+text-pink-700
 transition
 duration-200
 ease-out
@@ -252,7 +252,7 @@ hover:opacity-100
 hover:shadow-[0_12px_24px_rgba(244,114,182,0.12)]
 focus-visible:outline-none
 focus-visible:ring-2
-focus-visible:ring-pink-400
+focus-visible:ring-pink-700
 focus-visible:ring-offset-2
 focus-visible:ring-offset-white
 disabled:border-pink-200
@@ -278,17 +278,18 @@ motion-reduce:hover:translate-y-0
 export const projectDemoButtonStyles = `
 w-full
 rounded-lg
-bg-pink-500
+bg-pink-700
 text-white
 transition
 duration-200
 ease-out
 hover:-translate-y-0.5
-hover:bg-pink-600
+hover:bg-pink-800
 hover:opacity-100
 hover:shadow-[0_12px_24px_rgba(236,72,153,0.22)]
 focus-visible:outline-none
-focus-visible:ring-pink-400
+focus-visible:ring-2
+focus-visible:ring-pink-700
 focus-visible:ring-offset-2
 focus-visible:ring-offset-white
 disabled:bg-pink-200

@@ -175,9 +175,9 @@ const Hero: FC<HeroProps> = ({
             <div className="absolute right-[5%] top-[16%] h-28 w-24 bg-[radial-gradient(circle,currentColor_2px,transparent_2.8px)] bg-[length:1.45rem_1.45rem] text-pink-300/75 [html[data-theme='dark']_&]:text-blue-500/70" />
             <div className="absolute bottom-[16%] right-[6%] h-24 w-24 rounded-full bg-pink-300/30 blur-sm [html[data-theme='dark']_&]:bg-blue-600/35" />
             <div className="absolute right-[14%] top-[36%] h-14 w-14 rounded-full bg-pink-300/30 blur-md [html[data-theme='dark']_&]:bg-blue-600/45" />
-            <Sparkles className="absolute left-[14%] top-[21%] h-8 w-8 fill-pink-400 text-pink-400 [html[data-theme='dark']_&]:fill-blue-500 [html[data-theme='dark']_&]:text-blue-500" />
-            <Sparkles className="absolute right-[19%] top-[11%] h-10 w-10 fill-pink-300 text-pink-300 [html[data-theme='dark']_&]:fill-blue-500 [html[data-theme='dark']_&]:text-blue-500" />
-            <Sparkles className="absolute bottom-[28%] left-[46%] h-8 w-8 fill-pink-400 text-pink-400 [html[data-theme='dark']_&]:fill-blue-500 [html[data-theme='dark']_&]:text-blue-500" />
+            <Sparkles className="absolute left-[14%] top-[21%] h-8 w-8 fill-pink-400 text-pink-400 [html[data-theme='dark']_&]:fill-blue-500 [html[data-theme='dark']_&]:text-blue-500" aria-hidden="true" />
+            <Sparkles className="absolute right-[19%] top-[11%] h-10 w-10 fill-pink-300 text-pink-300 [html[data-theme='dark']_&]:fill-blue-500 [html[data-theme='dark']_&]:text-blue-500" aria-hidden="true" />
+            <Sparkles className="absolute bottom-[28%] left-[46%] h-8 w-8 fill-pink-400 text-pink-400 [html[data-theme='dark']_&]:fill-blue-500 [html[data-theme='dark']_&]:text-blue-500" aria-hidden="true" />
           </div>
 
           <motion.div
@@ -189,7 +189,7 @@ const Hero: FC<HeroProps> = ({
             <motion.div className={heroContentStyles} variants={entranceContainer}>
               <motion.p className={heroGreetingStyles} variants={entranceItem}>
                 {heroData.greeting}
-                <Sparkles className="h-8 w-8 fill-pink-400 text-pink-400 [html[data-theme='dark']_&]:fill-blue-500 [html[data-theme='dark']_&]:text-blue-500" />
+                <Sparkles className="h-8 w-8 fill-pink-400 text-pink-400 [html[data-theme='dark']_&]:fill-blue-500 [html[data-theme='dark']_&]:text-blue-500" aria-hidden="true" />
               </motion.p>
 
               <motion.h1 className={heroNameStyles} variants={entranceItem}>
@@ -199,10 +199,10 @@ const Hero: FC<HeroProps> = ({
 
               <motion.p className={heroRoleStyles} variants={entranceItem} aria-live="polite">
                 {typedRole}
-                <span className={heroCursorStyles}>|</span>
+                <span className={heroCursorStyles} aria-hidden="true">|</span>
               </motion.p>
 
-              <motion.div className={heroAccentRuleStyles} variants={entranceItem} />
+              <motion.div className={heroAccentRuleStyles} variants={entranceItem} aria-hidden="true" />
 
               <motion.p className={heroTaglineStyles} variants={entranceItem}>
                 {heroData.tagline}
@@ -220,7 +220,7 @@ const Hero: FC<HeroProps> = ({
                 </a>
               </motion.div>
 
-              <motion.ul className={heroSocialListStyles} variants={entranceItem} aria-label="Social links">
+              <motion.ul className={heroSocialListStyles} variants={entranceItem}>
                 {visibleSocialLinks.map((link) => {
                   const SocialIcon = socialIcons[link.id];
 
@@ -283,7 +283,7 @@ const Hero: FC<HeroProps> = ({
                   variants={entranceItem}
                 >
                   <HighlightIcon className={`${heroStatIconStyles} h-10 w-10`} aria-hidden="true" />
-                  <h2 className={heroStatTitleStyles}>{highlight.title}</h2>
+                  <h3 className={heroStatTitleStyles}>{highlight.title}</h3>
                   <p className={heroStatDescriptionStyles}>{highlight.description}</p>
                 </motion.article>
               );

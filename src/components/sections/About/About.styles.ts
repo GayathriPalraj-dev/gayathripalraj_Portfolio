@@ -118,7 +118,7 @@ text-sm
 font-bold
 uppercase
 tracking-[0.14em]
-text-pink-500
+text-pink-700
 [html[data-theme='dark']_&]:text-blue-400
 `;
 
@@ -126,7 +126,7 @@ export const aboutLabelDotStyles = `
 h-3
 w-3
 rounded-full
-bg-pink-500
+bg-pink-700
 [html[data-theme='dark']_&]:bg-blue-500
 `;
 
@@ -142,7 +142,7 @@ text-slate-950
 
 export const aboutHeadingAccentStyles = `
 bg-gradient-to-r
-from-pink-500
+from-pink-600
 to-pink-600
 bg-clip-text
 text-transparent
@@ -222,7 +222,7 @@ export const aboutStatValueStyles = `
 text-[clamp(1.65rem,2.5vw,2.15rem)]
 font-black
 leading-tight
-text-pink-500
+text-pink-700
 [html[data-theme='dark']_&]:text-blue-400
 `;
 
@@ -268,7 +268,7 @@ text-sm
 font-bold
 uppercase
 tracking-[0.14em]
-text-pink-500
+text-pink-700
 [html[data-theme='dark']_&]:text-blue-400
 `;
 
@@ -326,7 +326,7 @@ px-3.5
 py-2
 text-sm
 font-semibold
-text-pink-600
+text-pink-700
 shadow-[0_8px_18px_rgba(244,114,182,0.08)]
 transition
 duration-200
@@ -339,7 +339,7 @@ hover:shadow-[0_12px_24px_rgba(244,114,182,0.14)]
 focus-visible:outline
 focus-visible:outline-2
 focus-visible:outline-offset-2
-focus-visible:outline-pink-400
+focus-visible:outline-pink-700
 motion-reduce:transition-none
 motion-reduce:hover:translate-y-0
 [html[data-theme='dark']_&]:border-blue-500/45

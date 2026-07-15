@@ -141,7 +141,7 @@ const Contact: FC<ContactProps> = ({
                       }
                     } : undefined}
                     role={isLinked ? "link" : "group"}
-                    tabIndex={0}
+                    tabIndex={isLinked ? 0 : undefined}
                   >
                     <div className={contactIconWrapStyles} aria-hidden="true">
                       <ContactIcon size={24} strokeWidth={2.2} />
@@ -161,7 +161,6 @@ const Contact: FC<ContactProps> = ({
 
             <Card
               className={contactAvailabilityCardStyles}
-              tabIndex={0}
             >
               <h3 className={contactAvailabilityTitleStyles}>
                 {contactData.availability.title}

@@ -48,7 +48,7 @@ const createProjectPreviewImage = (title: string) => {
       <path d="M112 150H848" stroke="#F472B6" stroke-opacity="0.22" stroke-width="2"/>
       <path d="M112 390H848" stroke="#F472B6" stroke-opacity="0.18" stroke-width="2"/>
       <rect x="132" y="176" width="696" height="188" rx="24" fill="white" fill-opacity="0.72" stroke="#F9A8D4"/>
-      <text x="480" y="282" text-anchor="middle" fill="#EC4899" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">${title}</text>
+      <text x="480" y="282" text-anchor="middle" fill="#BE185D" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">${title}</text>
     </svg>
   `;
 

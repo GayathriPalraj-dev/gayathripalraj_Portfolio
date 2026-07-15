@@ -15,6 +15,7 @@ const Navigation: FC<NavigationProps> = ({
   return (
     <nav
       className={`${navigationContainerStyles} ${className}`.trim()}
+      aria-label="Primary navigation"
     >
       {navigationItems.map((item) => (
         <a

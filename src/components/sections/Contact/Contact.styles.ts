@@ -58,7 +58,7 @@ text-sm
 font-bold
 uppercase
 tracking-[0.14em]
-text-pink-500
+text-pink-700
 [html[data-theme='dark']_&]:text-blue-400
 `;
 
@@ -66,7 +66,7 @@ export const contactLabelDotStyles = `
 h-3
 w-3
 rounded-full
-bg-pink-500
+bg-pink-700
 [html[data-theme='dark']_&]:bg-blue-500
 `;
 
@@ -81,7 +81,7 @@ text-slate-950
 
 export const contactHeadingAccentStyles = `
 bg-gradient-to-r
-from-pink-500
+from-pink-600
 to-pink-600
 bg-clip-text
 text-transparent
@@ -147,7 +147,7 @@ hover:shadow-[0_24px_46px_rgba(244,114,182,0.16),0_1px_0_rgba(255,255,255,0.9)_i
 focus-visible:outline
 focus-visible:outline-2
 focus-visible:outline-offset-4
-focus-visible:outline-pink-400
+focus-visible:outline-pink-700
 motion-reduce:transition-none
 motion-reduce:hover:translate-y-0
 [html[data-theme='dark']_&]:border-blue-500/45
@@ -173,7 +173,7 @@ rounded-xl
 border
 border-pink-200
 bg-pink-50
-text-pink-500
+text-pink-700
 shadow-[0_10px_22px_rgba(244,114,182,0.1)]
 [html[data-theme='dark']_&]:border-blue-500/45
 [html[data-theme='dark']_&]:bg-blue-500/12
@@ -241,17 +241,18 @@ lg:max-w-[28rem]
 export const contactPrimaryButtonStyles = `
 w-full
 rounded-lg
-bg-pink-500
+bg-pink-700
 text-white
 transition
 duration-200
 ease-out
 hover:-translate-y-0.5
-hover:bg-pink-600
+hover:bg-pink-800
 hover:opacity-100
 hover:shadow-[0_12px_24px_rgba(236,72,153,0.22)]
 focus-visible:outline-none
-focus-visible:ring-pink-400
+focus-visible:ring-2
+focus-visible:ring-pink-700
 focus-visible:ring-offset-2
 focus-visible:ring-offset-white
 motion-reduce:transition-none
@@ -270,7 +271,7 @@ rounded-lg
 border
 border-pink-500
 bg-white/60
-text-pink-600
+text-pink-700
 transition
 duration-200
 ease-out
@@ -280,7 +281,8 @@ hover:bg-pink-50
 hover:opacity-100
 hover:shadow-[0_12px_24px_rgba(244,114,182,0.12)]
 focus-visible:outline-none
-focus-visible:ring-pink-400
+focus-visible:ring-2
+focus-visible:ring-pink-700
 focus-visible:ring-offset-2
 focus-visible:ring-offset-white
 motion-reduce:transition-none

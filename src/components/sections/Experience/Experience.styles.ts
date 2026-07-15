@@ -58,7 +58,7 @@ text-sm
 font-bold
 uppercase
 tracking-[0.14em]
-text-pink-500
+text-pink-700
 [html[data-theme='dark']_&]:text-blue-400
 `;
 
@@ -66,7 +66,7 @@ export const experienceLabelDotStyles = `
 h-3
 w-3
 rounded-full
-bg-pink-500
+bg-pink-700
 [html[data-theme='dark']_&]:bg-blue-500
 `;
 
@@ -81,7 +81,7 @@ text-slate-950
 
 export const experienceHeadingAccentStyles = `
 bg-gradient-to-r
-from-pink-500
+from-pink-600
 to-pink-600
 bg-clip-text
 text-transparent
@@ -159,7 +159,7 @@ w-3.5
 rounded-full
 border
 border-white
-bg-pink-500
+bg-pink-700
 shadow-[0_0_0_5px_rgba(244,114,182,0.16)]
 sm:block
 [html[data-theme='dark']_&]:border-slate-950
@@ -184,7 +184,7 @@ hover:shadow-[0_24px_46px_rgba(244,114,182,0.16),0_1px_0_rgba(255,255,255,0.9)_i
 focus-visible:outline
 focus-visible:outline-2
 focus-visible:outline-offset-4
-focus-visible:outline-pink-400
+focus-visible:outline-pink-700
 motion-reduce:transition-none
 motion-reduce:hover:translate-y-0
 [html[data-theme='dark']_&]:border-blue-500/45
@@ -219,7 +219,7 @@ text-xs
 font-bold
 uppercase
 tracking-[0.12em]
-text-pink-600
+text-pink-700
 [html[data-theme='dark']_&]:border-blue-500/45
 [html[data-theme='dark']_&]:bg-blue-500/12
 [html[data-theme='dark']_&]:text-blue-300
@@ -239,7 +239,7 @@ mt-2
 text-base
 font-bold
 leading-6
-text-pink-500
+text-pink-700
 [html[data-theme='dark']_&]:text-blue-400
 `;
 
@@ -278,7 +278,7 @@ px-3
 py-1.5
 text-xs
 font-semibold
-text-pink-600
+text-pink-700
 [html[data-theme='dark']_&]:border-blue-500/45
 [html[data-theme='dark']_&]:bg-blue-500/12
 [html[data-theme='dark']_&]:text-blue-300
@@ -301,7 +301,7 @@ hover:shadow-[0_24px_46px_rgba(244,114,182,0.16),0_1px_0_rgba(255,255,255,0.9)_i
 focus-visible:outline
 focus-visible:outline-2
 focus-visible:outline-offset-4
-focus-visible:outline-pink-400
+focus-visible:outline-pink-700
 motion-reduce:transition-none
 motion-reduce:hover:translate-y-0
 [html[data-theme='dark']_&]:border-blue-500/45
@@ -321,7 +321,7 @@ text-sm
 font-bold
 uppercase
 tracking-[0.14em]
-text-pink-500
+text-pink-700
 [html[data-theme='dark']_&]:text-blue-400
 `;
 
@@ -339,7 +339,7 @@ mt-2
 text-base
 font-bold
 leading-6
-text-pink-500
+text-pink-700
 [html[data-theme='dark']_&]:text-blue-400
 `;
 
@@ -365,7 +365,7 @@ px-4
 py-2
 text-sm
 font-bold
-text-pink-600
+text-pink-700
 [html[data-theme='dark']_&]:border-blue-500/45
 [html[data-theme='dark']_&]:bg-blue-500/12
 [html[data-theme='dark']_&]:text-blue-300
