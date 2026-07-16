@@ -104,6 +104,8 @@ const About: FC<AboutProps> = ({
                 className={aboutProfileImageStyles}
                 src={profileImage}
                 alt="Gayathri Palraj"
+                width={1254}
+                height={1254}
                 loading="lazy"
                 decoding="async"
               />

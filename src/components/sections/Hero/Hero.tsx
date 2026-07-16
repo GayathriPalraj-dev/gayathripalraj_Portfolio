@@ -260,7 +260,10 @@ const Hero: FC<HeroProps> = ({
                   className={heroPortraitStyles}
                   src={profileImage}
                   alt="Gayathri Palraj"
+                  width={1254}
+                  height={1254}
                   loading="eager"
+                  fetchPriority="high"
                   decoding="async"
                 />
               </motion.div>

@@ -125,6 +125,8 @@ const Projects: FC<ProjectsProps> = ({
                       className={projectImageStyles}
                       src={createProjectPreviewImage(project.title)}
                       alt={`${project.title} preview`}
+                      width={960}
+                      height={540}
                       loading="lazy"
                       decoding="async"
                     />
