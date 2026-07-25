@@ -236,13 +236,21 @@ backdrop-blur-xl
 `;
 
 export const footerResumeButtonStyles = `
+inline-flex
+items-center
+justify-center
 w-full
 rounded-lg
 bg-pink-700
+px-5
+py-3
+text-base
+font-medium
 text-white
 transition
 duration-200
 ease-out
+cursor-pointer
 hover:-translate-y-0.5
 hover:bg-pink-800
 hover:opacity-100

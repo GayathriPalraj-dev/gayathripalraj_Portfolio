@@ -3,7 +3,6 @@ import { Mail, MapPin, type LucideIcon } from "lucide-react";
 
 import { footerData } from "../../../data/fooder";
 import { Badge } from "../../ui/Badge";
-import { Button } from "../../ui/Button";
 import { Card } from "../../ui/Card";
 import { Container } from "../../ui/Container";
 
@@ -50,10 +49,6 @@ const footerIconMap: Record<string, FooterIcon | LucideIcon> = {
   github: GithubIcon,
   linkedin: LinkedinIcon,
   mail: Mail,
-};
-
-const openResume = () => {
-  window.location.href = footerData.resumeLink;
 };
 
 const Footer: FC = () => {
@@ -129,15 +124,14 @@ const Footer: FC = () => {
             </Card>
 
             <Card className={footerResumeCardStyles}>
-              <Button
+              <a
                 aria-label="Download resume"
                 className={footerResumeButtonStyles}
-                onClick={openResume}
-                type="button"
-                variant="primary"
+                download
+                href={footerData.resumeLink}
               >
                 {footerData.resumeLink}
-              </Button>
+              </a>
             </Card>
           </div>
 

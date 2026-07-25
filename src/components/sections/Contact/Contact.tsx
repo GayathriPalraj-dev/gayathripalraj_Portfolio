@@ -181,15 +181,14 @@ const Contact: FC<ContactProps> = ({
                   {contactData.cta.primary.label}
                 </Button>
 
-                <Button
+                <a
                   aria-label={contactData.cta.secondary.label}
                   className={contactSecondaryButtonStyles}
-                  onClick={() => openContactUrl(contactData.cta.secondary.href)}
-                  type="button"
-                  variant="secondary"
+                  download
+                  href={contactData.cta.secondary.href}
                 >
                   {contactData.cta.secondary.label}
-                </Button>
+                </a>
               </div>
             </Card>
           </div>

@@ -266,15 +266,23 @@ motion-reduce:hover:translate-y-0
 `;
 
 export const contactSecondaryButtonStyles = `
+inline-flex
+items-center
+justify-center
 w-full
 rounded-lg
 border
 border-pink-500
 bg-white/60
+px-5
+py-3
+text-base
+font-medium
 text-pink-700
 transition
 duration-200
 ease-out
+cursor-pointer
 hover:-translate-y-0.5
 hover:border-pink-600
 hover:bg-pink-50

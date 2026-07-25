@@ -1,7 +1,7 @@
 import type { FC } from "react";
 
-import heroDarkImage from "../../../assets/Images/profile/hero-dark.png";
-import heroLightImage from "../../../assets/Images/profile/hero-light.png";
+import heroDarkImage from "../../../assets/Images/profile/hero-dark.webp";
+import heroLightImage from "../../../assets/Images/profile/hero-light.webp";
 import { aboutData, technologyGroups } from "../../../data/about";
 import { useTheme } from "../../../hooks/useTheme";
 import { Badge } from "../../ui/Badge";

@@ -1,3 +1,5 @@
+import { RESUME_URL } from "../constants/resume";
+
 export const heroData = {
   greeting: "Hi, I'm",
 
@@ -24,7 +26,7 @@ export const heroData = {
 
   secondaryCTA: {
     label: "Download Resume",
-    href: "/resume.pdf",
+    href: RESUME_URL,
   },
 
   highlights: [

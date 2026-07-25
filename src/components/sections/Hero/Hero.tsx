@@ -12,8 +12,8 @@ import {
   type LucideIcon,
 } from "lucide-react";
 
-import heroDarkImage from "../../../assets/Images/profile/hero-dark.png";
-import heroLightImage from "../../../assets/Images/profile/hero-light.png";
+import heroDarkImage from "../../../assets/Images/profile/hero-dark.webp";
+import heroLightImage from "../../../assets/Images/profile/hero-light.webp";
 import { heroData } from "../../../data/hero";
 import { socialLinks } from "../../../data/socialLinks";
 import { useTheme } from "../../../hooks/useTheme";

@@ -1,3 +1,4 @@
+import { RESUME_URL } from "../constants/resume";
 import { portfolioEmailHref } from "./socialLinks";
 
 export const footerData = {
@@ -44,7 +45,7 @@ export const footerData = {
     { label: "Contact", href: "#contact" },
   ],
 
-  resumeLink: "/resume.pdf",
+  resumeLink: RESUME_URL,
 
   availability: {
     status: "Open to Full-Time Opportunities",

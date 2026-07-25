@@ -1,3 +1,4 @@
+import { RESUME_URL } from "../constants/resume";
 import { portfolioEmailAddress, portfolioEmailHref } from "./socialLinks";
 
 export const contactData = {
@@ -55,7 +56,7 @@ export const contactData = {
     },
     secondary: {
       label: "Download Resume",
-      href: "/resume.pdf",
+      href: RESUME_URL,
     },
   },
 };
