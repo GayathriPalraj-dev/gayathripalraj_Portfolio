@@ -130,7 +130,7 @@ const Footer: FC = () => {
                 download
                 href={footerData.resumeLink}
               >
-                {footerData.resumeLink}
+                Download Resume
               </a>
             </Card>
           </div>
